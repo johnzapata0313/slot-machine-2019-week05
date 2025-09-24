@@ -96,7 +96,7 @@ spinButton.addEventListener("click", () => {
     resultText = `😩 No match. You lost $${bet}.`;
     resultEl.style.color = "red";
   }
-
+//content pulled from google gemmni//
   balance += winnings;
   updateBalanceDisplay();
   resultEl.textContent = resultText;
