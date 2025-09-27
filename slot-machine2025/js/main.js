@@ -3,23 +3,23 @@
 const teams = [
   {
     name: "Eagles",
-    img: "https://upload.wikimedia.org/wikipedia/en/8/8e/Philadelphia_Eagles_logo.svg"
+    img: "Images/PHI.svg"
   },
   {
     name: "76ers",
-    img: "https://upload.wikimedia.org/wikipedia/en/0/0e/Philadelphia_76ers_logo.svg"
+    img: "Images/Philadelphia_76ers_logo.svg"
   },
   {
     name: "Flyers",
-    img: "file:///Users/johnzapata/slot-machine2025/Images/Philadelphia_Flyers.svg"
+    img: "Images/Philadelphia_Flyers.svg"
   },
   {
     name: "Phillies",
-    img: "file:///Users/johnzapata/slot-machine2025/Images/philadelphia_phillies_logo_primary_19922235.png"
+    img: "Images/philadelphia_phillies_logo_primary_19922235.png"
   },
   {
     name: "Union",
-    img: "file:///Users/johnzapata/slot-machine2025/Images/Philadelphia_Union_2018_logo.svg.png"
+    img: "Images/Philadelphia_Union_2018_logo.svg.png"
   }
 ];
 
@@ -96,7 +96,7 @@ spinButton.addEventListener("click", () => {
     resultText = `😩 No match. You lost $${bet}.`;
     resultEl.style.color = "red";
   }
-//content pulled from google gemmni//
+
   balance += winnings;
   updateBalanceDisplay();
   resultEl.textContent = resultText;
